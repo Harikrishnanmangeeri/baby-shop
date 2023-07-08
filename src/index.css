@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body{
+  background: #bdc3c7;  
+  background: -webkit-linear-gradient(to right, #e3e8ed, #bdc3c7);  
+  background: linear-gradient(to right, #eaedef, #bdc3c7); 
+}
+
+.form{
+  background-color: #f2f2f2; /* Set the background color */
+  background-image: url('https://img.freepik.com/premium-photo/3d-rendered-pastel-purple-gradient-color-clouds-with-yellow-stars-sky_490107-387.jpg?w=360'); /* Set the background image */
+  background-size: cover; /* Adjust the image size to cover the entire element */
+  background-position: center; /* Center the image within the element */
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  width: 550px;
+  margin: 20px auto;
+  padding: 20px;
+  
+}
+
+.form-body{
+  text-align: left;
+  padding: 20px 10px;
+}
+
+.form-body > *{
+  padding: 5px;
+}
+
+.form__label{
+  width: 40%;
+}
+
+.mb-3{
+border-radius: 4px;
+background-color:#dee1e3 ;
+  }
+  .mb-3:hover{
+    border-color: white;
+  }
+
+.footer{
+  text-align: center;
+}
+.card-container {
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  transition: transform 0.2s ease-in-out;
+}
+
+.card-container:hover {
+  transform: scale(1.05);
+}
+
+.card-img-top {
+  transition: transform 0.2s ease-in-out;
+}
+
+.card-container:hover .card-img-top {
+  transform: scale(1.1);
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+
