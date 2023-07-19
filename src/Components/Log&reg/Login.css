@@ -1,0 +1,80 @@
+.login-modal {
+  /* background-image: url('https://img.freepik.com/free-psd/maternity-baby-shower-background_23-2150237221.jpg?size=626&ext=jpg&ga=GA1.1.703786352.1686889785&semt=ais'); */
+  background-size: cover;
+  background-position: center;
+}
+
+.login-modal .modal-content {
+  /* background-image: url('https://img.freepik.com/free-psd/maternity-baby-shower-background_23-2150237221.jpg?size=626&ext=jpg&ga=GA1.1.703786352.1686889785&semt=ais'); */
+  background-color: transparent;
+  border: gray;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.447);
+}
+
+.login-modal .modal-body form {
+  padding: 20px;
+}
+
+.login-modal .modal-body form .form-group {
+  margin-bottom: 20px;
+}
+
+.login-modal .modal-body form .form-control {
+  border-radius: 4px;
+}
+
+.login-modal .modal-footer button {
+  margin-right: 10px;
+}
+
+.login-modal .modal-footer button:hover {
+  background-color: #007bff;
+}
+
+.form-control-transparent {
+  background-color: transparent;
+  border-color: transparent;
+  color: black;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+.form-control-transparent:hover {
+  background-color: #ffffff20;
+  border-color: #ffffff20;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-buttons button {
+  flex-basis: 48%;
+}
+
+.modal-buttons button:hover {
+  background-color: #007bff;
+}
+
+.lgm {
+  filter: brightness(80%); /* Add brightness effect */
+}
+
+.lgm:hover {
+  filter: brightness(100%);
+}
+
+.login-modal .modal-content {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add shadow effect */
+}
+.mb-3{
+  color: black;
+  font-style: italic;
+  font-weight:inherit;
+  
+}
+.lab{
+  font-weight: bold;
+}

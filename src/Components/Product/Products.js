@@ -1,10 +1,107 @@
-import React from 'react'
-
-const Products = () => {
+export const product = [
+  { id: 1, 
+    name: "Boys Navy Polka Dot Print Shirt And Pant Set With Bow",
+    type: 'clothes',
+    src:'https://static.hopscotch.in/fstatic/product/202207/5ff9fee0-8605-45e5-858b-4f9939403214_large.jpg?version=1657528328882&tr=w-480,c-at_max,n-normal',
+    price: "$19.99",
+    price2: 15.99,
+    Discription:"",
+    qty:1
+    },
+    { id:2 , 
+      name: "Baby clothing Boy girls Clothes Cotton",
+      type: 'clothes',
+      src:'https://mywebstoreshopping.com/cdn/shop/products/baby-clothing-boy-girls-clothes-cotton-newborn-toddler-rompers-cute-infant-new-born-650.jpg?v=1637592087',
+      price: "$32.99",
+      price2: 15.99,
+      Discription:"",
+      qty:1
+      },
+      { id:3 , 
+        name: "Organic Crochet Shaker Wooden Baby Rattle Toy ",
+        type: 'toy',
+        src:' https://www.shumee.in/cdn/shop/products/CrochetRattleShaker_720x.jpg?v=1653032434',
+        price: "$52.99",
+        price2: 15.99,
+        Discription:"",
+        qty:1
+        },
+     { id:4 , 
+          name: "higadget Baby Toys Unbreakable Mini Scooter, Friction Toy Scooter, Durable Plastic Toys - Multicolor",
+          type: 'toy',
+          src:'https://m.media-amazon.com/images/I/61q-d3tvOnL.jpg',
+          price: "$32.99",
+          price2: 15.99,
+          Discription:"",
+          qty:1
+          },
+     { id:5 , 
+        name: "Baby Toys | Pre School Toys | Newborn Toys ",
+        type: 'toy',
+        src:'https://johnlewis.scene7.com/is/image/JohnLewis/baby-toys-carousel1-140523',
+        price: "$42.99",
+        price2: 15.99,
+        Discription:""  ,
+        qty:1 
+      },
+      { id:6 , 
+        name: "Gerber 2nd Food Baby Food Banana Puree, Natural & Non-GMO, 4 Ounce Tubs, 8 Ounce Pack of 8",
+        type: 'food',
+        src:'https://images-cdn.ubuy.ae/6358b87987c23e7e62482228-gerber-2nd-food-baby-food-banana-puree.jpg',
+        price: "$62.99",
+        price2: 15.99,
+        Discription:"",
+        qty:1
+              
+      },
+      { id:9 , 
+        name: "Nestle LACTOGEN 1 Infant Formula Powder ",
+        type: 'food',
+        src:'https://m.media-amazon.com/images/I/71cPQK5kjGL.jpg',
+        price: "$82.99",
+        price2: 15.99,
+        Discription:"",
+        qty:1
+        },
+        { id:10 , 
+          name: "SPEEDEX Stainless Steel Infant Baby Feeding Bottle Milk Bottle ",
+          type: 'other',
+          src:'https://m.media-amazon.com/images/I/71rL7rpg93L._AC_UF1000,1000_QL80_.jpg',
+          price: "$72.99",
+          price2: 15.99,
+          Discription:"",
+          qty:1
+          },
+          { id:11, 
+            name: "baby stroller ",
+            type: 'other',
+            src:'https://ae01.alicdn.com/kf/HTB1Yu0waeuSBuNjSsplq6ze8pXac.jpg_640x640Q90.jpg_.webp',
+            price: "$132.99",
+            price2: 15.99,
+            Discription:'baby stroller ultra-light folding can sit can lie landscape umbrella',
+            qty:1
+            
+            },
+            { id:12 , 
+              name: "Baby Cot",
+              type: 'other',
+              src:'https://informationngr.com/wp-content/uploads/2022/10/Baby-Cot-Prices-and-Tips-on-Choosing-Bed-in-Nigeria-551x458.jpg',
+              price: "$232.99",
+              price2: 15.99,
+              Discription:"baby cot",
+              qty:1
+              
+              },
+              { id:13 , 
+                name: "NESTLE CERELAC",
+                type: 'food',
+                src:'https://static2.medplusmart.com/products/_5ef35c_/CERE0087_L.jpg',
+                price: "$22.99",
+                price2: 15.99,
+                Discription:"NESTLE CERELAC FORTIFIED BABY CEREAL WITH MILK, WHEAT APPLE CARROT - STAGE 1 300GM",
+                qty:1
+                },
+                                                                                          
+      
   
-  return (
-    <div>Products</div>
-  )
-}
-
-export default Products
+];

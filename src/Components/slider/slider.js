@@ -2,21 +2,21 @@ import {Carousel,Image} from 'react-bootstrap';
 
 function DarkVariantExample() {
   return (
-    <Carousel>
+    <Carousel id='home'>
     <Carousel.Item>
 
     <Image src={require("./images/Baby.jpg")} alt='Photo' className='w-100'/>  
       <Carousel.Caption>
-        <h3>First slide label</h3>
-        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        <h3 className='text-muted' >"Welcome to Our Little Wonderland!"</h3>
+        <p className='text-muted'> "In the embrace of tiny arms, we find boundless joy.".</p>
       </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item>
    
     <Image src={require("./images/Baby2.jpg")} alt='Photo' className='w-100'/>
       <Carousel.Caption>
-        <h3>Second slide label</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <h3><span className='text-muted'>"Celebrating</span> the Miracle of Life!"</h3>
+        <p> <span className='text-muted'>"Every coo, every cuddle,</span> a reminder of life's purest miracles."</p>
       </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item>
@@ -24,9 +24,9 @@ function DarkVariantExample() {
     <Image src={require("./images/Baby3.jpg")} alt='Photo' className='w-100'/>
 
       <Carousel.Caption>
-        <h3>Third slide label</h3>
+        <h3 className='text'> "Join Us on this Journey of Parenthood!"</h3>
         <p>
-          Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+        "Together, we'll create memories that sparkle like stardust."
         </p>
       </Carousel.Caption>
     </Carousel.Item>

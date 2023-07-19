@@ -80,3 +80,78 @@ background-color:#dee1e3 ;
 }
 
 
+@media (max-width: 767.98px) {
+  .border-sm-start-none {
+    border-left: none !important;
+  }
+}
+
+
+.gradient-custom {
+  /* fallback for old browsers */
+  background: #6a11cb;
+  
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+  
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
+  }
+
+
+  .gradient-custom {
+    background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+    }
+    
+    .card-custom {
+    border-bottom-left-radius: 10% 50%;
+    border-top-left-radius: 10% 50%;
+    background-color: #f8f9fa ;
+    }
+    
+    
+    .input-custom {
+    background-color: white ;
+    }
+    
+    .white-text {
+    color: hsl(52, 0%, 98%);
+    font-weight: 100 ;
+    font-size: 14px;
+    }
+    
+    .back-button {
+    background-color: hsl(52, 0%, 98%);
+    font-weight: 700;
+    color: black ;
+    margin-top: 50px ;
+    }
+    /* Add this CSS to your global stylesheet or App.css */
+
+/* Change background color */
+.bg-dark {
+  background-color: #333;
+}
+
+/* Change button color */
+.btn-link {
+  color: #fff;
+}
+
+/* Style menu items on hover */
+.nav-pills .nav-link:hover,
+.nav-link.show {
+  background-color: #555;
+}
+
+/* Style dropdown menu items on hover */
+.dropdown-item:hover {
+  background-color: #555;
+  color: #fff;
+}
+
+/* Style active dropdown menu item */
+.dropdown-item.active {
+  background-color: #555;
+  color: #fff;
+}
