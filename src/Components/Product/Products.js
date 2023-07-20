@@ -75,7 +75,7 @@ export const product = [
           { id:11, 
             name: "baby stroller ",
             type: 'other',
-            src:'https://ae01.alicdn.com/kf/HTB1Yu0waeuSBuNjSsplq6ze8pXac.jpg_640x640Q90.jpg_.webp',
+            src:'https://rukminim2.flixcart.com/image/612/612/k8g8knk0/stroller-pram/m/e/z/sunshine-baby-stroller-18155-stroller-luvlap-original-imafqgh2mkczypvm.jpeg?q=70',
             price: "$132.99",
             price2: 15.99,
             Discription:'baby stroller ultra-light folding can sit can lie landscape umbrella',
