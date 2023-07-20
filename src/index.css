@@ -155,3 +155,17 @@ background-color:#dee1e3 ;
   background-color: #555;
   color: #fff;
 }
+
+
+
+@keyframes multicolor-bg {
+  0% { background-color: #ff0000; }    /* Red */
+  25% { background-color: #ff0000; }   /* Green */
+  50% { background-color: #0000FF; }   /* Blue */
+  75% { background-color: #002aff; }   /* Orange */
+  100% { background-color: #FF0000; }  /* Red */
+}
+
+#animated-div {
+  animation: multicolor-bg 1.5s infinite;
+}

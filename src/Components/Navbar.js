@@ -22,7 +22,7 @@ const NavbarMain = () => {
   return (
     <Navbar expand="lg" className="bg-body-tertiary p-0">
       <Container fluid>
-        <Navbar.Brand href="/">
+        <Navbar.Brand href="#home" >
           <img
             src="https://cdn-icons-png.flaticon.com/512/105/105627.png?w=740&t=st=1688632907~exp=1688633507~hmac=9da84e8f28bd66747110aacd9543961698b05946e326fa2d44e2e9e9e575c3f8"
             width={25}
@@ -34,12 +34,12 @@ const NavbarMain = () => {
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav className="me-auto my-2 my-lg-0 " style={{ maxHeight: '100px' }} navbarScroll>
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#cat">Shop</Nav.Link>
+            <Nav.Link href="#home" onClick={() => ab('/')}>Home</Nav.Link>
+            <Nav.Link href="#cat" onClick={() => ab('/')}>Shop</Nav.Link>
             <Nav.Link href="#all" onClick={() => ab('/Allproduct')}>
               All product
             </Nav.Link>
-            <Nav.Link href="#offer">Offer</Nav.Link>
+            <Nav.Link href="#offer" onClick={() => ab('/')}>Offer</Nav.Link>
           </Nav>
           <div className='me-2'>
             <Search className='my-2 mt-5'/>

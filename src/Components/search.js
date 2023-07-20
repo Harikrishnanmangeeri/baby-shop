@@ -22,7 +22,7 @@ const ab=useNavigate()
       
       <Dropdown >
       
-      <Dropdown.Toggle variant="success" id="dropdown-basic" className='bg-transparent border-0 '>
+      <Dropdown.Toggle variant="success" id="dropdown-basic" className='bg-transparent border-0 overflow-hidden'>
       <Form className="d-flex ">
       
         <Form.Control
@@ -39,7 +39,7 @@ const ab=useNavigate()
 
       <Dropdown.Menu align="end"  className='overflow-hidden'>
       {filteredProducts.map((item) => (
-        <Dropdown.Item href="#/action-1" className='w-25 ' onClick={()=>ab(`/displayProduct/${item.id}`)}>  <Image className='w-25' src={item.src}  /> {item.name}</Dropdown.Item>
+        <Dropdown.Item  className='w-25 ' onClick={()=>ab(`/displayProduct/${item.id}`)}>  <Image className='w-25' src={item.src}  /> {item.name}</Dropdown.Item>
       ))}
         
       </Dropdown.Menu>

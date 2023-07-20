@@ -17,7 +17,7 @@ const Home = () => {
        <DarkVariantExample/>
        </div>
     
-      <div>{<OfferCard/>}</div> 
+      <div id='offer'>{<OfferCard/>}</div> 
     
       
        <div>{<Flatoff/>}</div> 

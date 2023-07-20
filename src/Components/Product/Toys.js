@@ -21,11 +21,12 @@ const Toys = ({ imageSrc, title }) => {
     <div>
     <header  className=' sticky-top'><NavbarMain/></header>
     <br></br>
-    <div className="container">
+    <div className="container py-5">
         <div className="row">
+        <div className='d-flex flex-wrap justify-content-center '>
       {filteredProducts.map((products) => (
-        <Card style={{ width: '18rem' }} onClick={()=>navigate(`/displayProduct/${products.id}`)} className="card-container">
-      <Card.Img variant="top" src={products.src} />
+        <Card style={{ width: '20%', marginBottom: '10px', marginRight: '10px' }} onClick={()=>navigate(`/displayProduct/${products.id}`)} className="card-container">
+      <Card.Img className='card-img-top' variant="top" src={products.src} />
       <Card.Body>
         <Card.Title>{products.name}</Card.Title>
         <Card.Text>
@@ -36,6 +37,7 @@ const Toys = ({ imageSrc, title }) => {
     </Card>
        
       ))}
+      </div>
       </div>
       </div>
       <Footer/>

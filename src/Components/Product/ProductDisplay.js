@@ -97,14 +97,13 @@ console.log(addtocart);
               <hr />
 
               <Row className="d-flex justify-content-center">
-                <Col md={6} className="text-center">
-                  <h4 className="my-4 h4">Additional information</h4>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus suscipit modi sapiente illo soluta odit
-                    voluptates, quibusdam officia. Neque quibusdam quas a quis porro? Molestias illo neque eum in laborum.
-                  </p>
-                </Col>
-              </Row>
+  <Col md={6} className="text-center">
+    <h4 className="my-4 h4">Product Details</h4>
+    <p>
+      Welcome to our baby store! We provide the best products for your little ones. Our baby products are carefully selected to ensure safety, comfort, and joy for your baby. From cute clothing to essential baby gear, we've got you covered!
+    </p>
+  </Col>
+</Row>
 
               <Row>
                 <Col lg={4} md={12} mb={4}>

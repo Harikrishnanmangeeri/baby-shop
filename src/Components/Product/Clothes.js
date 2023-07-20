@@ -19,8 +19,9 @@ const Clothes = ({ imageSrc, title }) => {
       <br></br>
     <div className="container">
         <div className="row">
+        <div className='d-flex flex-wrap justify-content-center '>
       {filteredProducts.map((product) => (
-        <Card style={{ width: '18rem' }} onClick={()=>navigate(`/displayProduct/${product.id}`)} className="card-container">
+        <Card  style={{ width: '20%', marginBottom: '10px', marginRight: '10px' }} onClick={()=>navigate(`/displayProduct/${product.id}`)} className="card-container">
       <Card.Img className="card-img-top" src={product.src} />
       <Card.Body>
         <Card.Title> {product.name}</Card.Title>
@@ -32,6 +33,7 @@ const Clothes = ({ imageSrc, title }) => {
     </Card>
        
       ))}
+      </div>
       </div>
       </div>
       <br></br>

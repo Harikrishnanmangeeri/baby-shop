@@ -14,7 +14,7 @@ const Editproduct = () => {
   
   const handleSubmit =(e)=>{
     e.preventDefault()
-const id=e.target.id
+// const id=e.target.id
 // console.log(id)
 
 
@@ -24,8 +24,8 @@ const id=e.target.id
       const newType = e.target.type.value || product.type;
       const newPrize = e.target.price.value || product.price;
       const newOfferpize = e.target.price2.value || product.price2;
-      const newDescription = e.target.description.value || product.description;
-      if (product.id === id) {
+      const newDescription = e.target.description.value || product.Discription;
+      if (product.id === parseInt(eid)) {
        
         return {
           ...product,
@@ -34,7 +34,7 @@ const id=e.target.id
           type: newType,
           price: newPrize,
           price2: newOfferpize,
-          description: newDescription,
+          Discription: newDescription,
         };
         
         
@@ -77,7 +77,7 @@ const id=e.target.id
                 <label htmlFor="name" className="form-label">
                   Name:
                 </label>
-                <input type="text" className="form-control" id="name" required />
+                <input type="text" className="form-control" id="name" />
               </div>
 
               <Form.Select id="type" title="Category" aria-label="Default select example">
@@ -93,27 +93,27 @@ const id=e.target.id
                 <label htmlFor="src" className="form-label">
                   Image:
                 </label>
-                <input type="text" className="form-control" id="src" required />
+                <input type="text" className="form-control" id="src"  />
               </div>
               <div className="mb-3">
                 <label htmlFor="price" className="form-label">
                   Price:
                 </label>
-                <input type="text" className="form-control" id="price" required />
+                <input type="text" className="form-control" id="price"  />
               </div>
               <div className="mb-3">
                 <label htmlFor="price2" className="form-label">
                   Price 2:
                 </label>
-                <input type="text" className="form-control" id="price2" required />
+                <input type="text" className="form-control" id="price2"  />
               </div>
               <div className="mb-3">
                 <label htmlFor="description" className="form-label">
                   Description:
                 </label>
-                <textarea className="form-control" id="description" required />
+                <textarea className="form-control" id="description"  />
               </div>
-              <button className="btn btn-primary">Update</button>
+              <button className="btn btn-primary" type='submit'>Update</button>
             </form>
             </div>
           </div>
